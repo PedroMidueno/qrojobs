@@ -1,16 +1,19 @@
 {
   "name": "qrojobs",
   "version": "0.0.1",
-  "description": "",
+  "description": "QroJobs is a job-searching platform focused on Queretaro, Mexico",
   "main": "index.js",
   "scripts": {
     "dev:web": "pnpm --filter @qrojobs/web dev",
     "dev:api": "pnpm --filter @qrojobs/api start:dev",
     "dev:all": "concurrently --kill-others --names web,api \"pnpm dev:web\" \"pnpm dev:api\""
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "Pedro Midueño",
+    "url": "https://pemid.dev",
+    "email": "pedromidueno.dev@gmail.com"
+  },
+  "license": "AGPL-3.0",
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
@@ -28,5 +31,9 @@
     "globals": "^17.14.0",
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.73.0"
+  },
+  "engines": {
+    "node": ">=26.0.0",
+    "pnpm": ">=12.0.0"
   }
 }

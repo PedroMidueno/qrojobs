@@ -1,10 +1,14 @@
 {
   "name": "@qrojobs/api",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "HTTP API for QroJobs platform",
+  "author": {
+    "name": "Pedro Midueño",
+    "url": "https://pemid.dev",
+    "email": "pedromidueno.dev@gmail.com"
+  },
   "private": true,
-  "license": "UNLICENSED",
+  "license": "AGPL-3.0",
   "type": "module",
   "scripts": {
     "build": "nest build",
